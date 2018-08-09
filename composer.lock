@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "54e61347c4e38b1fa15b5c39369e8544",
+    "content-hash": "0050a3caac9d4616fc24f521df2e129b",
     "packages": [
         {
             "name": "erusev/parsedown",
@@ -150,16 +150,16 @@
         },
         {
             "name": "picocms/pico",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/picocms/Pico.git",
-                "reference": "41badc182938f7cd704ee22b6439c0bb7f6e452c"
+                "reference": "ac36863fa74eb6e23fdfc13f5f475357fb269c44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/picocms/Pico/zipball/41badc182938f7cd704ee22b6439c0bb7f6e452c",
-                "reference": "41badc182938f7cd704ee22b6439c0bb7f6e452c",
+                "url": "https://api.github.com/repos/picocms/Pico/zipball/ac36863fa74eb6e23fdfc13f5f475357fb269c44",
+                "reference": "ac36863fa74eb6e23fdfc13f5f475357fb269c44",
                 "shasum": ""
             },
             "require": {
@@ -180,11 +180,6 @@
                 "picocms/pico-theme": "Pico requires a theme to actually display the contents of your website. This is Pico's official default theme."
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-pico-1.1": "2.0-dev"
-                }
-            },
             "autoload": {
                 "psr-0": {
                     "Pico": "lib/",
@@ -228,20 +223,20 @@
                 "website",
                 "yaml"
             ],
-            "time": "2018-07-01T16:12:37+00:00"
+            "time": "2018-07-29T11:11:21+00:00"
         },
         {
             "name": "picocms/pico-deprecated",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/picocms/pico-deprecated.git",
-                "reference": "cc17689fac26568bb638a5fbeb4b6e7ab0ac7cf1"
+                "reference": "4f98ff0f1abbf887ab3eccf69420659b52b4af92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/picocms/pico-deprecated/zipball/cc17689fac26568bb638a5fbeb4b6e7ab0ac7cf1",
-                "reference": "cc17689fac26568bb638a5fbeb4b6e7ab0ac7cf1",
+                "url": "https://api.github.com/repos/picocms/pico-deprecated/zipball/4f98ff0f1abbf887ab3eccf69420659b52b4af92",
+                "reference": "4f98ff0f1abbf887ab3eccf69420659b52b4af92",
                 "shasum": ""
             },
             "require": {
@@ -249,11 +244,6 @@
                 "picocms/pico": "self.version"
             },
             "type": "pico-plugin",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0-dev"
-                }
-            },
             "autoload": {
                 "classmap": [
                     "PicoDeprecated.php"
@@ -283,20 +273,20 @@
                 "picocms",
                 "picocms-plugin"
             ],
-            "time": "2018-07-01T15:36:45+00:00"
+            "time": "2018-07-29T10:59:27+00:00"
         },
         {
             "name": "picocms/pico-theme",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/picocms/pico-theme.git",
-                "reference": "a75986d269d1e8d3d2c206d87b1bd41ea2b0a4d4"
+                "reference": "e1e4cc644ff440cd78d37e87adb6ea328907d3c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/picocms/pico-theme/zipball/a75986d269d1e8d3d2c206d87b1bd41ea2b0a4d4",
-                "reference": "a75986d269d1e8d3d2c206d87b1bd41ea2b0a4d4",
+                "url": "https://api.github.com/repos/picocms/pico-theme/zipball/e1e4cc644ff440cd78d37e87adb6ea328907d3c6",
+                "reference": "e1e4cc644ff440cd78d37e87adb6ea328907d3c6",
                 "shasum": ""
             },
             "require": {
@@ -304,10 +294,7 @@
             },
             "type": "pico-theme",
             "extra": {
-                "installer-name": "default",
-                "branch-alias": {
-                    "dev-master": "2.0-dev"
-                }
+                "installer-name": "default"
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -332,7 +319,7 @@
                 "picocms",
                 "picocms-theme"
             ],
-            "time": "2018-07-01T15:35:52+00:00"
+            "time": "2018-07-29T10:58:56+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -391,7 +378,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.42",
+            "version": "v2.8.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
@@ -441,20 +428,21 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.35.3",
+            "version": "v1.35.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "b48680b6eb7d16b5025b9bfc4108d86f6b8af86f"
+                "reference": "7e081e98378a1e78c29cc9eba4aefa5d78a05d2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/b48680b6eb7d16b5025b9bfc4108d86f6b8af86f",
-                "reference": "b48680b6eb7d16b5025b9bfc4108d86f6b8af86f",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/7e081e98378a1e78c29cc9eba4aefa5d78a05d2a",
+                "reference": "7e081e98378a1e78c29cc9eba4aefa5d78a05d2a",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=5.3.3",
+                "symfony/polyfill-ctype": "^1.8"
             },
             "require-dev": {
                 "psr/container": "^1.0",
@@ -493,16 +481,16 @@
                 },
                 {
                     "name": "Twig Team",
-                    "homepage": "http://twig.sensiolabs.org/contributors",
+                    "homepage": "https://twig.symfony.com/contributors",
                     "role": "Contributors"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
-            "homepage": "http://twig.sensiolabs.org",
+            "homepage": "https://twig.symfony.com",
             "keywords": [
                 "templating"
             ],
-            "time": "2018-03-20T04:25:58+00:00"
+            "time": "2018-07-13T07:12:17+00:00"
         }
     ],
     "packages-dev": [],
